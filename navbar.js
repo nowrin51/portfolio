@@ -9,7 +9,9 @@ navbar.innerHTML = `
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
     <!-- Logo -->
-    <h1 class="text-2xl font-bold text-cyan-400 cursor-pointer">
+    <h1 class="text-3xl md:text-2xl font-bold font-orbitron tracking-widest 
+           bg-gradient-to-r from-cyan-400 to-purple-500 
+           text-transparent bg-clip-text">
       Nowrin Akter Mahi
     </h1>
 
