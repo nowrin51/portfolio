@@ -9,17 +9,17 @@ navbar.innerHTML = `
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
     <!-- Logo -->
-    <h1 class="text-3xl md:text-2xl font-bold font-orbitron tracking-widest 
+    <h1 class="text-2xl md:text-3xl font-bold font-orbitron tracking-widest 
            bg-gradient-to-r from-cyan-400 to-purple-500 
            text-transparent bg-clip-text">
-      Nowrin Akter Mahi
+      Mahi...
     </h1>
 
     <!-- Desktop Menu -->
     <ul class="hidden md:flex gap-8 text-lg font-medium">
-      <li><a href="#home" class="hover:text-cyan-400 transition duration-300">Home</a></li>
-      <li><a href="#about" class="hover:text-cyan-400 transition duration-300">About</a></li>
-      <li><a href="#projects" class="hover:text-cyan-400 transition duration-300">Projects</a></li>
+      <li><a href="index.html#home" class="hover:text-cyan-400 transition duration-300">Home</a></li>
+      <li><a href="index.html#about" class="hover:text-cyan-400 transition duration-300">About</a></li>
+      <li><a href="index.html#projects" class="hover:text-cyan-400 transition duration-300">Projects</a></li>
       <li><a href="#contact" class="hover:text-cyan-400 transition duration-300">Contact</a></li>
     </ul>
 

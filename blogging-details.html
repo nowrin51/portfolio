@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Blogging Website Details</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white pt-28">
+    <script src="navbar.js"></script>
+
+  <section class="min-h-screen px-6 pt-4 pb-16 relative overflow-visible">
+
+    <!-- Background Glow -->
+    <div class="absolute top-0 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+
+    <div class="max-w-6xl mx-auto relative z-10">
+
+      <!-- Back Button -->
+      <a href="index.html#projects"
+         class="inline-flex items-center gap-2 mb-10 mt-4 text-cyan-400 hover:text-cyan-300 transition">
+        ← Back to Projects
+      </a>
+
+      <!-- Main Hero Card -->
+      <div class="bg-white/5 backdrop-blur-xl border border-cyan-400/10 rounded-3xl p-6 md:p-10 shadow-2xl shadow-cyan-500/10 min-h-fit">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+          <!-- Left Content -->
+          <div>
+
+            <p class="text-cyan-400 font-semibold mb-3">
+              Web Development Project
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-bold mb-5 pb-2 leading-tight
+           bg-gradient-to-r from-cyan-400 to-purple-500
+           text-transparent bg-clip-text inline-block">
+            Blogging Website
+            </h1>
+
+            <p class="text-slate-300 leading-8 mb-6">
+              A modern blogging platform where users can explore posts,
+              browse categories, and read content through a clean and responsive
+              interface. This project focuses on simple navigation, readable UI,
+              and database-driven content management.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-wrap gap-4">
+              <a href="https://github.com/nowrin51/blogging-site.git"
+                 target="_blank"
+                 class="px-6 py-3 bg-cyan-500 text-slate-950 font-semibold rounded-xl hover:bg-cyan-400 transition">
+                Open GitHub
+              </a>
+
+              <a href="index.html#contact"
+                 class="px-6 py-3 border border-cyan-500 text-cyan-400 font-semibold rounded-xl hover:bg-cyan-500 hover:text-slate-950 transition">
+                Contact Me
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right Image -->
+          <div class="bg-slate-950/60 border border-cyan-400/20 rounded-3xl p-3 shadow-lg shadow-cyan-500/10">
+
+            <img src="blogging.png"
+                 alt="Blogging Website Screenshot"
+                 class="w-full h-64 md:h-80 object-cover object-center rounded-2xl">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Details Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+
+        <!-- Overview -->
+        <div class="md:col-span-2 bg-white/5 backdrop-blur-xl border border-cyan-400/10 rounded-3xl p-8 shadow-lg shadow-cyan-500/10">
+
+          <h2 class="text-2xl font-bold text-cyan-400 mb-4">
+            Project Overview
+          </h2>
+
+          <p class="text-slate-300 leading-8 mb-5">
+            The Blogging Website was created to practice full-stack web development
+            concepts. It includes a structured frontend layout and backend logic
+            for handling dynamic blog content.
+          </p>
+
+          <p class="text-slate-300 leading-8">
+            The main goal of this project was to build a clean, responsive,
+            and user-friendly website where blog content can be organized
+            and displayed professionally.
+          </p>
+
+        </div>
+
+        <!-- Tools -->
+        <div class="bg-white/5 backdrop-blur-xl border border-cyan-400/10 rounded-3xl p-8 shadow-lg shadow-cyan-500/10">
+
+          <h2 class="text-2xl font-bold text-cyan-400 mb-4">
+            Tools Used
+          </h2>
+
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-cyan-500 text-slate-950 rounded-full text-sm font-semibold">HTML</span>
+            <span class="px-4 py-2 bg-cyan-500 text-slate-950 rounded-full text-sm font-semibold">CSS</span>
+            <span class="px-4 py-2 bg-cyan-500 text-slate-950 rounded-full text-sm font-semibold">PHP</span>
+            <span class="px-4 py-2 bg-cyan-500 text-slate-950 rounded-full text-sm font-semibold">MySQL</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Features Section -->
+      <div class="bg-white/5 backdrop-blur-xl border border-cyan-400/10 rounded-3xl p-8 mt-10 shadow-lg shadow-cyan-500/10">
+
+        <h2 class="text-2xl font-bold text-cyan-400 mb-6">
+          Key Features
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+          <div class="bg-slate-950/60 border border-slate-700 rounded-2xl p-5">
+            <h3 class="text-lg font-bold text-white mb-2">
+              Responsive Layout
+            </h3>
+            <p class="text-slate-400">
+              Works properly on desktop, tablet, and mobile screen sizes.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 border border-slate-700 rounded-2xl p-5">
+            <h3 class="text-lg font-bold text-white mb-2">
+              Blog Categories
+            </h3>
+            <p class="text-slate-400">
+              Posts can be organized using category-based sections.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 border border-slate-700 rounded-2xl p-5">
+            <h3 class="text-lg font-bold text-white mb-2">
+              Dynamic Content
+            </h3>
+            <p class="text-slate-400">
+              Backend logic supports database-based content display.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 border border-slate-700 rounded-2xl p-5">
+            <h3 class="text-lg font-bold text-white mb-2">
+              Clean UI
+            </h3>
+            <p class="text-slate-400">
+              Simple design focused on readability and easy navigation.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+
+</html>
