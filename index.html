@@ -725,22 +725,26 @@
 </section>
 
 <script>
-  emailjs.init("YOUR_PUBLIC_KEY");
+  emailjs.init("usIU7pOD0WrrRiD6B");
 
   const contactForm = document.getElementById("contactForm");
 
   contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", contactForm)
-      .then(function () {
-        alert("Message sent successfully!");
-        contactForm.reset();
-      })
-      .catch(function (error) {
-        console.log("EmailJS Error:", error);
-        alert("Failed: " + error.text);
-      });
+    emailjs.sendForm(
+      "service_8qdp8yh",
+      "template_s68l1mq",
+      contactForm
+    )
+    .then(function () {
+      alert("Message sent successfully!");
+      contactForm.reset();
+    })
+    .catch(function (error) {
+      console.log("EmailJS Error:", error);
+      alert("Failed: " + error.text);
+    });
   });
 </script>
 
